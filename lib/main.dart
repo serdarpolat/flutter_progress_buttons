@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:progress_buttons/buttons/button_0.dart';
+import 'package:progress_buttons/buttons/button_0_1.dart';
 import 'package:progress_buttons/buttons/button_1.dart';
 import 'package:progress_buttons/buttons/button_2.dart';
 import 'package:progress_buttons/buttons/button_3.dart';
@@ -47,6 +49,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             scrollDirection: Axis.vertical,
             child: Column(
               children: <Widget>[
+                Button0(),
+                Button01(),
                 Button1(),
                 Button2(),
                 Button3(),
